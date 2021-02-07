@@ -18,6 +18,7 @@
     -   [GA RF](#ga-rf)
     -   [Core rf](#core-rf)
 -   [ggplot graph](#ggplot-graph)
+-   [Session info](#session-info)
 
 Aim
 ===
@@ -585,3 +586,95 @@ l <- results %>%
 ggsave2("../Figures/roc_plot_no_legend.png", plot = l,
         dpi = 300)
 ```
+
+Session info
+============
+
+``` r
+sessionInfo()
+```
+
+    ## R version 3.6.2 (2019-12-12)
+    ## Platform: x86_64-w64-mingw32/x64 (64-bit)
+    ## Running under: Windows 10 x64 (build 19041)
+    ## 
+    ## Matrix products: default
+    ## 
+    ## locale:
+    ## [1] LC_COLLATE=English_Sweden.1252  LC_CTYPE=English_Sweden.1252   
+    ## [3] LC_MONETARY=English_Sweden.1252 LC_NUMERIC=C                   
+    ## [5] LC_TIME=English_Sweden.1252    
+    ## 
+    ## attached base packages:
+    ## [1] parallel  stats     graphics  grDevices utils     datasets  methods  
+    ## [8] base     
+    ## 
+    ## other attached packages:
+    ##  [1] factoextra_1.0.7                FactoMineR_2.3                 
+    ##  [3] doParallel_1.0.15               funModeling_1.9.4              
+    ##  [5] Hmisc_4.4-1                     Formula_1.2-3                  
+    ##  [7] survival_3.2-3                  GA_3.2                         
+    ##  [9] iterators_1.0.12                foreach_1.5.0                  
+    ## [11] cowplot_1.1.0                   mltools_0.3.5                  
+    ## [13] pROC_1.16.1                     glmnet_3.0-2                   
+    ## [15] Matrix_1.2-18                   stringi_1.4.6                  
+    ## [17] naniar_0.6.0                    pscl_1.5.5                     
+    ## [19] mice_3.8.0                      lubridate_1.7.8                
+    ## [21] corrr_0.4.2                     table1_1.2                     
+    ## [23] caTools_1.18.0                  DescTools_0.99.38              
+    ## [25] descr_1.1.4                     e1071_1.7-3                    
+    ## [27] modelgrid_1.1.1.0               readxl_1.3.1                   
+    ## [29] corrplot_0.84                   summarytools_0.9.6             
+    ## [31] kableExtra_1.1.0                ggfortify_0.4.10               
+    ## [33] MLmetrics_1.1.1                 caret_6.0-86                   
+    ## [35] lattice_0.20-38                 AppliedPredictiveModeling_1.1-7
+    ## [37] knitr_1.29                      forcats_0.5.0                  
+    ## [39] stringr_1.4.0                   readr_1.3.1                    
+    ## [41] tidyverse_1.3.0                 yardstick_0.0.7                
+    ## [43] workflows_0.2.0                 tune_0.1.1                     
+    ## [45] tidyr_1.1.2                     tibble_3.0.3                   
+    ## [47] rsample_0.0.8                   recipes_0.1.13                 
+    ## [49] purrr_0.3.4                     parsnip_0.1.3                  
+    ## [51] modeldata_0.0.2                 infer_0.5.3                    
+    ## [53] ggplot2_3.3.2                   dplyr_1.0.2                    
+    ## [55] dials_0.0.9                     scales_1.1.0                   
+    ## [57] broom_0.7.0                     tidymodels_0.1.1               
+    ## [59] data.table_1.13.0               MASS_7.3-51.5                  
+    ## 
+    ## loaded via a namespace (and not attached):
+    ##   [1] backports_1.1.5      plyr_1.8.6           lazyeval_0.2.2      
+    ##   [4] splines_3.6.2        entropy_1.2.1        listenv_0.8.0       
+    ##   [7] pryr_0.1.4           digest_0.6.25        htmltools_0.4.0     
+    ##  [10] magick_2.4.0         fansi_0.4.1          magrittr_1.5        
+    ##  [13] checkmate_2.0.0      cluster_2.1.0        ROCR_1.0-11         
+    ##  [16] globals_0.13.0       modelr_0.1.8         gower_0.2.1         
+    ##  [19] matrixStats_0.55.0   jpeg_0.1-8.1         colorspace_1.4-1    
+    ##  [22] ggrepel_0.8.2        blob_1.2.1           rvest_0.3.6         
+    ##  [25] haven_2.2.0          xfun_0.16            tcltk_3.6.2         
+    ##  [28] crayon_1.3.4         jsonlite_1.6.1       Exact_2.0           
+    ##  [31] glue_1.4.2           gtable_0.3.0         ipred_0.9-9         
+    ##  [34] webshot_0.5.2        shape_1.4.5          rapportools_1.0     
+    ##  [37] mvtnorm_1.1-1        DBI_1.1.0            Rcpp_1.0.3          
+    ##  [40] CORElearn_1.54.2     plotrix_3.7-8        htmlTable_2.1.0     
+    ##  [43] viridisLite_0.3.0    xtable_1.8-4         flashClust_1.01-2   
+    ##  [46] foreign_0.8-72       GPfit_1.0-8          stats4_3.6.2        
+    ##  [49] lava_1.6.8           prodlim_2019.11.13   htmlwidgets_1.5.1   
+    ##  [52] httr_1.4.2           RColorBrewer_1.1-2   ellipsis_0.3.0      
+    ##  [55] pkgconfig_2.0.3      nnet_7.3-12          dbplyr_1.4.4        
+    ##  [58] tidyselect_1.1.0     rlang_0.4.7          DiceDesign_1.8-1    
+    ##  [61] reshape2_1.4.3       munsell_0.5.0        cellranger_1.1.0    
+    ##  [64] tools_3.6.2          cli_2.0.2            moments_0.14        
+    ##  [67] generics_0.0.2       evaluate_0.14        yaml_2.2.1          
+    ##  [70] ModelMetrics_1.2.2.2 fs_1.3.1             pander_0.6.3        
+    ##  [73] visdat_0.5.3         future_1.19.1        nlme_3.1-142        
+    ##  [76] leaps_3.1            xml2_1.2.2           compiler_3.6.2      
+    ##  [79] rstudioapi_0.11      png_0.1-7            reprex_0.3.0        
+    ##  [82] lhs_1.0.1            vctrs_0.3.4          pillar_1.4.6        
+    ##  [85] lifecycle_0.2.0      furrr_0.1.0          bitops_1.0-6        
+    ##  [88] lmom_2.8             latticeExtra_0.6-29  R6_2.4.1            
+    ##  [91] gridExtra_2.3        rpart.plot_3.0.9     gld_2.6.2           
+    ##  [94] codetools_0.2-16     boot_1.3-23          assertthat_0.2.1    
+    ##  [97] withr_2.3.0          expm_0.999-5         hms_0.5.3           
+    ## [100] grid_3.6.2           rpart_4.1-15         timeDate_3043.102   
+    ## [103] class_7.3-15         rmarkdown_2.3        scatterplot3d_0.3-41
+    ## [106] base64enc_0.1-3      ellipse_0.4.2

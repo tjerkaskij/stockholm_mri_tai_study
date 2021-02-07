@@ -2185,8 +2185,48 @@ sessionInfo()
     ## attached base packages:
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
+    ## other attached packages:
+    ##  [1] cowplot_1.1.0      pROC_1.16.1        glmnet_3.0-2       Matrix_1.2-18     
+    ##  [5] stringi_1.4.6      naniar_0.6.0       pscl_1.5.5         mice_3.8.0        
+    ##  [9] lubridate_1.7.8    corrr_0.4.2        caTools_1.18.0     DescTools_0.99.38 
+    ## [13] descr_1.1.4        modelgrid_1.1.1.0  readxl_1.3.1       corrplot_0.84     
+    ## [17] summarytools_0.9.6 kableExtra_1.1.0   knitr_1.29         forcats_0.5.0     
+    ## [21] stringr_1.4.0      readr_1.3.1        tidyverse_1.3.0    yardstick_0.0.7   
+    ## [25] workflows_0.2.0    tune_0.1.1         tidyr_1.1.2        tibble_3.0.3      
+    ## [29] rsample_0.0.8      recipes_0.1.13     purrr_0.3.4        parsnip_0.1.3     
+    ## [33] modeldata_0.0.2    infer_0.5.3        ggplot2_3.3.2      dplyr_1.0.2       
+    ## [37] dials_0.0.9        scales_1.1.0       broom_0.7.0        tidymodels_0.1.1  
+    ## [41] data.table_1.13.0  MASS_7.3-51.5     
+    ## 
     ## loaded via a namespace (and not attached):
-    ##  [1] compiler_3.6.2  magrittr_1.5    tools_3.6.2     htmltools_0.4.0
-    ##  [5] yaml_2.2.1      Rcpp_1.0.3      stringi_1.4.6   rmarkdown_2.3  
-    ##  [9] knitr_1.29      stringr_1.4.0   xfun_0.16       digest_0.6.25  
-    ## [13] rlang_0.4.7     evaluate_0.14
+    ##  [1] backports_1.1.5      plyr_1.8.6           splines_3.6.2       
+    ##  [4] listenv_0.8.0        pryr_0.1.4           digest_0.6.25       
+    ##  [7] foreach_1.5.0        htmltools_0.4.0      magick_2.4.0        
+    ## [10] fansi_0.4.1          magrittr_1.5         checkmate_2.0.0     
+    ## [13] globals_0.13.0       modelr_0.1.8         gower_0.2.1         
+    ## [16] matrixStats_0.55.0   colorspace_1.4-1     blob_1.2.1          
+    ## [19] rvest_0.3.6          haven_2.2.0          xfun_0.16           
+    ## [22] tcltk_3.6.2          crayon_1.3.4         jsonlite_1.6.1      
+    ## [25] Exact_2.0            survival_3.2-3       iterators_1.0.12    
+    ## [28] glue_1.4.2           gtable_0.3.0         ipred_0.9-9         
+    ## [31] webshot_0.5.2        shape_1.4.5          rapportools_1.0     
+    ## [34] mvtnorm_1.1-1        DBI_1.1.0            Rcpp_1.0.3          
+    ## [37] viridisLite_0.3.0    xtable_1.8-4         GPfit_1.0-8         
+    ## [40] stats4_3.6.2         lava_1.6.8           prodlim_2019.11.13  
+    ## [43] httr_1.4.2           ellipsis_0.3.0       pkgconfig_2.0.3     
+    ## [46] nnet_7.3-12          dbplyr_1.4.4         caret_6.0-86        
+    ## [49] tidyselect_1.1.0     rlang_0.4.7          DiceDesign_1.8-1    
+    ## [52] reshape2_1.4.3       munsell_0.5.0        cellranger_1.1.0    
+    ## [55] tools_3.6.2          cli_2.0.2            generics_0.0.2      
+    ## [58] evaluate_0.14        yaml_2.2.1           ModelMetrics_1.2.2.2
+    ## [61] fs_1.3.1             pander_0.6.3         visdat_0.5.3        
+    ## [64] future_1.19.1        nlme_3.1-142         xml2_1.2.2          
+    ## [67] compiler_3.6.2       rstudioapi_0.11      e1071_1.7-3         
+    ## [70] reprex_0.3.0         lhs_1.0.1            lattice_0.20-38     
+    ## [73] vctrs_0.3.4          pillar_1.4.6         lifecycle_0.2.0     
+    ## [76] furrr_0.1.0          bitops_1.0-6         lmom_2.8            
+    ## [79] R6_2.4.1             gld_2.6.2            codetools_0.2-16    
+    ## [82] boot_1.3-23          assertthat_0.2.1     withr_2.3.0         
+    ## [85] expm_0.999-5         parallel_3.6.2       hms_0.5.3           
+    ## [88] grid_3.6.2           rpart_4.1-15         timeDate_3043.102   
+    ## [91] class_7.3-15         rmarkdown_2.3        base64enc_0.1-3
